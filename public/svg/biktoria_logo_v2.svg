@@ -1,0 +1,15 @@
+<svg class="text-inherit" viewBox="0 0 130 207" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_5_81)">
+<rect x="37.045" y="0.307861" width="24.0792" height="207.451" fill="white"/>
+<rect x="40.6722" y="7.71683" width="22.2269" height="103.726" transform="rotate(-45 40.6722 7.71683)" fill = "white"/>
+<rect x="114.017" y="50.5407" width="22.2269" height="103.726" transform="rotate(45 114.017 50.5407)" fill="white"/>
+<rect x="37.045" y="90.1143" width="22.2269" height="103.726" transform="rotate(-45 37.045 90.1143)" fill="white"/>
+<rect x="110.39" y="132.938" width="22.2269" height="103.726" transform="rotate(45 110.39 132.938)" fill="white"/>
+<rect y="0.307739" width="22.2269" height="207.451" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_5_81">
+<rect width="130" height="207" fill="white"/>
+</clipPath>
+</defs>
+</svg>
