@@ -11,7 +11,7 @@ export const ReservationFooter = ()=>{
     
     return(
         <footer
-            className="flex min-h-[64px] px-6 py-4 bg-white"
+            className="flex min-h-[64px] px-6 py-4"
         >
             <button
                 onClick={()=>setCurrentReservationPage(currentReservationPage - 1)}

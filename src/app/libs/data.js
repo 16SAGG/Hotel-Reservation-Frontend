@@ -1,6 +1,6 @@
 export const reservationPages = [
     {
-        title: "Select your dates"
+        title: "Select your dates",
     },
     {
         title: "Add guests number",

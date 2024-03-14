@@ -13,7 +13,7 @@ export const ReservationHeader = ()=>{
 
     return(
         <header
-            className="flex flex-col min-h-[64px] bg-white text-black"
+            className="flex flex-col min-h-[64px]"
         >
             <div
                 className="flex flex-col px-6 py-4 "
@@ -58,7 +58,7 @@ export const ReservationHeader = ()=>{
                     className="row-start-1 col-start-1"
                 >
                     <div
-                        className="h-full w-10 bg-black"
+                        className="h-full duration-300 bg-black"
                         style={{
                             width: `${currentPagePercent}%`
                         }}
