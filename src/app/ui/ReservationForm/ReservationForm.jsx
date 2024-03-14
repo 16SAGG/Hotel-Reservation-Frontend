@@ -4,7 +4,7 @@ import clsx from "clsx"
 import { ReservationHeader } from "./ReservationHeader"
 import { useReservation } from "@/app/store/reservationStore"
 import { ReservationFooter } from "./ReservationFooter"
-import { PagesWrapper } from "./pages/pagesWrapper"
+import { PagesWrapper } from "./pages/PagesWrapper" 
 
 
 export const ReservationForm = ()=>{
