@@ -12,13 +12,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en"
+      className="overflow-x-hidden h-full"
+    >
       <body className={`
         ${inter.className}
         bg-[#0A0A0A]
         flex
         justify-center
         overflow-x-hidden
+        h-full
+        relative
       `}>
         <NavBar/>
         <main
