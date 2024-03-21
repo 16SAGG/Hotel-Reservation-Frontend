@@ -1,3 +1,4 @@
+import { Calendary } from "./Calendary"
 import { WeekDays } from "./WeekDays"
 
 export const DatesSelector = () =>{
@@ -10,6 +11,7 @@ export const DatesSelector = () =>{
             >
                 <WeekDays/>
             </header>
+            <Calendary/>
         </section>
     )
 }

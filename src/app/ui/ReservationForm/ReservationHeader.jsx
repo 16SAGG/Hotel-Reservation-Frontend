@@ -1,15 +1,15 @@
 import Image from "next/image"
 import biktoriaLogoV2 from "../../../../public/svg/biktoria_logo_v2.svg"
 import { useReservation } from "@/app/store/reservationStore"
-import { reservationPages } from "@/app/libs/data"
+import { data } from "@/app/libs/data"
 
 export const ReservationHeader = ()=>{
     const currentReservationPage = useReservation((state) => state.currentReservationPage)
     const setCurrentReservationPage = useReservation((state) => state.setCurrentReservationPage)
     const setReservationFormIsActive = useReservation((state) => state.setReservationFormIsActive)
 
-    const currentTitle = reservationPages[currentReservationPage].title
-    const currentPagePercent = ((currentReservationPage + 1) * 100)/reservationPages.length
+    const currentTitle = data.reservationPages[currentReservationPage].title
+    const currentPagePercent = ((currentReservationPage + 1) * 100)/data.reservationPages.length
 
     return(
         <header
@@ -49,7 +49,7 @@ export const ReservationHeader = ()=>{
                 </div>
             </div>
             <div
-                className="grid grid-cols-1 grid-rows-1 min-h-[2px]"
+                className="grid grid-cols-1 grid-rows-1 min-h-[1px]"
             >
                 <div
                     className="row-start-1 col-start-1 bg-[#8A8A8A]"

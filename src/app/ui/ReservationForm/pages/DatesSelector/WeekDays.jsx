@@ -3,7 +3,7 @@ export const WeekDays = ()=>{
 
     const listWeekDays = weekDays.map((day, _index) =>
         <li
-            className="grow text-center"
+            className="text-center"
             key={_index}
         >
             {day}
@@ -12,7 +12,7 @@ export const WeekDays = ()=>{
 
     return(
         <ol
-            className="grid grid-cols-7 px-4 py-2 w-full gap-3"
+            className="grid grid-cols-7 px-4 py-2 w-full gap-3 border-b-[1px] border-[#8A8A8A]"
         >
             {listWeekDays}
         </ol>
