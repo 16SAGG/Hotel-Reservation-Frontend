@@ -66,18 +66,23 @@ data.months = [
 data.reservationPages = [
     {
         title: "Select your dates",
+        continueCondition: ({checkInDate, checkOutDate})=>{return checkInDate && checkOutDate}
     },
     {
         title: "Add guests number",
+        continueCondition: ()=>{return true}
     },
     {
-        title: "Select your rooms"
+        title: "Select your rooms",
+        continueCondition: ()=>{return true}
     },
     {
-        title: "Add your information"
+        title: "Add your information",
+        continueCondition: ()=>{return true}
     },
     {
-        title: "Congratulations & Enjoy"
+        title: "Congratulations & Enjoy",
+        continueCondition: ()=>{return true}
     }
 ]
 

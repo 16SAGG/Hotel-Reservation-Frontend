@@ -2,7 +2,6 @@ import { data } from "@/app/libs/data"
 import { utils } from "@/app/libs/utils"
 import { useReservation } from "@/app/store/reservationStore"
 import clsx from "clsx"
-import { useState } from "react"
 
 export const Calendary = () =>{
     const checkInDate = useReservation((state) => state.checkInDate)
